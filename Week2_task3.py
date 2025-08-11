@@ -44,7 +44,12 @@ print(entry.strip())
 
 # Question 9
 
-# entry = input("Enter a sentence: ")
+sentence = input("Enter a sentence: ")
+contains_a = sentence.count("a")
+contains_e = sentence.count("e")
+contains_i = sentence.count("i")
+contains_o = sentence.count("o")
+contains_u = sentence.count("u")
 
 # Question 10
 entry = "1234"
@@ -59,6 +64,24 @@ fruits = "apple,banana,orange"
 print(fruits)
 print(fruits.split())
 
+# Question 12
+
 sentence = input("Enter a sentence: ")
 word = "\n".join(sentence.split())
 print(word)
+
+
+# Question 13
+entry = "This is a sample string"
+
+print("_".join(entry.split()))
+
+# Question 14
+
+fruit = "Banana"
+print(fruit.count("a"))
+
+
+# Question 15
+entry = "https://github.com/AjeeAI/Week2_task1.git"
+print(entry.startswith("https://"))
