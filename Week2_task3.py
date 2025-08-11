@@ -16,7 +16,7 @@
 # entry = "Adesoji"
 
 # length = entry.find(entry[-1])  + 1
-# # print(len(entry))
+
 # print(F"The length of the entry is {length}")
 
 
@@ -52,6 +52,13 @@ int_entry = int(entry)
 print(int_entry * 2)
 
 """ Task 3"""
+
+# Question 11
+
+fruits = "apple,banana,orange"
+print(fruits)
+print(fruits.split())
+
 sentence = input("Enter a sentence: ")
-word = sentence.strip("\n")
+word = "\n".join(sentence.split())
 print(word)
